@@ -1,0 +1,41 @@
+{
+  "name": "ejemplo-karma-jasmin",
+  "version": "1.0.0",
+  "description": "Proyecto de ejemplo que utiliza Karma con Jasmine y WebPack, utilizado para probar metodos mock.",
+  "keywords": ["karma", "jasmine", "webpack", "test", "testing", "javascript", "babel", "karma-webpack"],
+  "main": "src/index.js",
+  "scripts": {
+    "test": "karma start",
+    "build": "webpack --config webpack.config.js"
+  },
+  "author": {
+    "name": "Cristian Reyes",
+    "email": "cristianir.dev@gmail.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cristianireyes/ejemplo-karma-jasmine.git"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "babel-loader": "^8.0.5",
+    "jasmine-core": "3.2.1",
+    "karma": "^3.0.0",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-edge-launcher": "^0.4.2",
+    "karma-firefox-launcher": "^1.1.0",
+    "karma-ie-launcher": "^1.0.0",
+    "karma-jasmine": "^1.1.2",
+    "karma-jasmine-html-reporter": "1.2.0",
+    "karma-mocha-reporter": "^2.2.5",
+    "karma-opera-launcher": "^1.0.0",
+    "karma-phantomjs-launcher": "^1.0.4",
+    "karma-safari-launcher": "^1.0.0",
+    "karma-spec-reporter": "0.0.32",
+    "karma-webpack": "next",
+    "webpack": "^4.19.0",
+    "webpack-cli": "^3.1.0"
+  }
+}
